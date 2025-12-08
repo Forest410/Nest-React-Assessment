@@ -1,0 +1,11 @@
+{
+  "watch": ["src"],
+  "ext": "ts,json",
+  "ignore": ["src/**/*.spec.ts", "node_modules", "dist"],
+  "exec": "nest start --watch",
+  "delay": 500,
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
+
